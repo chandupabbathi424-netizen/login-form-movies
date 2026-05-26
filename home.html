@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <h2>Netflix Movies</h2>
+
+        <div>
+            <span id="welcomeUser"></span>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </nav>
+
+    <h1 class="movie-heading">Book Your Favorite Movie</h1>
+
+    <div class="movie-container">
+
+        <div class="movie-card">
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1200"
+                alt="movie">
+            <h2>Avengers Endgame</h2>
+            <p>⭐ 9.2/10</p>
+            <button class="bookBtn" data-movie="Avengers Endgame">Book Now</button>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1200"
+                alt="movie">
+            <h2>Spider Man</h2>
+            <p>⭐ 8.8/10</p>
+            <button class="bookBtn" data-movie="Spider Man">Book Now</button>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?q=80&w=1200"
+                alt="movie">
+            <h2>Batman</h2>
+            <p>⭐ 8.5/10</p>
+            <button class="bookBtn" data-movie="Batman">Book Now</button>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=1200"
+                alt="movie">
+            <h2>Joker</h2>
+            <p>⭐ 9.0/10</p>
+            <button class="bookBtn" data-movie="Joker">Book Now</button>
+        </div>
+
+    </div>
+
+    <div class="booking-section">
+        <h2>Booking Confirmation</h2>
+        <p id="bookingMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
